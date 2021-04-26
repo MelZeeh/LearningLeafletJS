@@ -75,7 +75,7 @@
 		};
 	}
    
-	    // Add legend - modified from https://leafletjs.com/examples/choropleth/ 
+// Add legend - modified from https://leafletjs.com/examples/choropleth/ 
     
     var legend = L.control({position: 'bottomleft'});
     
@@ -96,6 +96,8 @@
 
     return div;
     };
+
+legend.addTo(mymap);
 	
     // ----------- BEGIN SECTION (Markers, circles, polygons, & popups) ------------- 
     // Enable the code below to show additional elements that can be added to your map. 
